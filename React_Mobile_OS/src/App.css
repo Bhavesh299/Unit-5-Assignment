@@ -1,0 +1,12 @@
+.App{
+    margin-left: 30px;
+}
+.squareshape{
+    list-style: square;
+}
+.discshape{
+    list-style: disc;
+}
+.circleshape{
+    list-style: circle;
+}
