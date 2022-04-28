@@ -1,0 +1,146 @@
+.App{
+  text-align: center;
+  margin-top: 10px;
+}
+.nav{
+  
+  width:95%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: rgb(0, 8, 12);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+ 
+}
+.navlink{
+
+    color:rgb(241, 235, 235);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.OfferImg{
+  margin:10px;
+}
+.footer{
+  width:60%;
+  height: 100px;
+  background-color: rgb(148, 237, 107);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.productgrid{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  /* line-height:1px; */
+  grid-gap:40px;
+}
+.ProductName{
+  font-size: 20px;
+}
+.prize>span{
+  font-size: 20px;
+}
+.divtag:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+.prize{
+  margin-top:-20px;
+}
+.divtag{
+  margin:auto;
+  width:100%;
+  height:auto;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.divtag:hover .ProductName{
+  color:rgb(241, 235, 235);
+}
+.divtag:hover .prize{
+  color:rgb(241, 235, 235);
+}
+.divtag:hover .prize>span{
+  color:rgb(241, 235, 235);
+}
+.divtag:hover .ProductImg{
+  opacity: 0.5;
+}
+.menimage{
+  width:80%;
+  height: 250px;
+  border-radius: 10px;
+}
+.ProductImg{
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.ProductImg:hover{
+  opacity: 0.5;
+}
+.productgrid>div{
+  margin:auto;
+}
+.productgrid>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.productgrid>div:hover .ProductName{
+  color:rgb(241, 235, 235);
+}
+.productgrid>div:hover .prize{
+  color:rgb(241, 235, 235);
+}
+.productgrid>div:hover .prize>span{
+  color:rgb(241, 235, 235);
+}
+.productgrid>div:hover .ProductImg{
+  opacity: 0.5;
+}
+.productgrid>div:hover .menimage{
+  opacity: 0.5;
+}
+.productgrid>div:hover .ProductImg{
+  opacity: 0.5;
+}
+.productgrid>div:hover .ProductImg:hover{
+  opacity: 1;
+}
+.productgrid>div:hover .menimage:hover{
+  opacity: 1;
+}
+.abt{
+  width:100%;
+  height: auto;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap:40px;
+
+  
+}
+.abt>div{
+  margin:auto;
+  width:100%;
+  height:auto;
+  border-radius: 5px;
+  align-items: center;
+}
+
+
+
